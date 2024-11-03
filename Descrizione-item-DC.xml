@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>Decreto di Anfipoli per Kos</dc:title>
+<dc:creator xsi:type="VIAF">Amphipolis</dc:creator>
+<dc:subject>Asylìa</dc:subject>
+<dc:subject xsi:type="LCSH"> Greek Inscription </dc:subject>
+<dc:description>Decreto con il quale la città di Anfipoli dichiara l'inviolabilità del Santuario di Asclepio a Kos, in risposta alla richiesta fatta dagli ambasciatori di quest'ultima.</dc:description>
+<dc:publisher xsi:type="VIAF"> Herzog, Rudolf; Klaffenbach, Gunther; </dc:publisher>
+<dc:date>243 a.C.</dc:date>
+<dc:type>Oggetto fisico</dc:type>
+<dc:format>Pietra</dc:format>
+<dc:format>0,55 x 0,98 x 0,09 m</dc:format>
+<dc:language xsi:type="ISO 639-2">grc</dc:language>
+<dc:coverage>243 a.C</dc:coverage>
+<dc:coverage xsi:type="TGN">Kos</dc:coverage>
+
+</metadata>

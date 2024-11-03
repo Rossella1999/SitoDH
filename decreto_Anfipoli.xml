@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="textType">Decreto</rs> di Anfipoli per Kos</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>unknown</repository>
+                        
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><p><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250"> Stele </objectType> di <material>marmo bianco</material>
+                                     rotta nella parte inferiore e composta da due frammenti uniti insieme (<dimensions><height unit="metre"> 0.98 </height><width unit="metre"> 0.55 </width><depth unit="metre"> 0.09 </depth></dimensions>).</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Tre decreti macedoni sono stati incisi sulla stessa pietra nel seguente ordine: Cassandreia, Amfipoli e Filippi. Il decreto di Amfipoli inizia alla linea 18.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><dimensions><height unit="metre"> h 0.007</height></dimensions>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Nel santuario di Asclepio a Kos</origPlace>
+                            <origDate>243 a. C.</origDate>
+                        </origin>
+                        <provenance type="found"> Il preciso contesto di ritrovamento è sconosciuto.
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="../../images/1.jpg.jpg">
+            <desc> Immagine presa da <bibl><ptr target="#Hatzopoulos1996"/>, Plate n. <citedRange>XXXIX</citedRange>.</bibl></desc>
+    </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="grc">
+                <ab>
+                    <lb n="1"/> <placeName type="ethnic" ref="Ἀμφιπολίτης">Ἀ μ φ ι π ο λ ι τ ῶ ν </placeName>
+                    <lb n="2"/><w lemma="βασιλεύω">Βασιλεύοντος</w> <persName type="ruler" key="Antigono Gonata"><name nymRef="Ἀντιγόνος">Ἀντιγόνου</name></persName> <w lemma="ἔτος">ἔτους</w> <num value="41">ἐνός καὶ τεσσαρακοστοῦ</num> <rs type="institution" subtype="official" role="ἐπιστάτης" key="epistate"><w lemma="ἐπιστάτης">ἐπιστἀτου</w></rs> <persName type="attested" key="" ><name nymRef="Ξενίας">Ξενί<lb
+                        n="3" break="no"/>ου</name></persName>τοῦ <persName type="attested" key=""><name nymRef="Ὄργης" type="patronymic">Ὀργέως</name></persName>, <w lemma="ἐπὶ">ἐφ'</w> <rs ref="religious-institution.xml#ἱερεύς" type="religious_institution" subtype="official" role="ἱερεύς" key="sacerdote"><w lemma="ἱερεύς">ἱερέως</w></rs> <persName type="attested" key=""><name nymRef="Λυσιμάχος">Λυσιμάχου</name></persName>· <w lemma="ψήφισμα">ψηφίσματα</w> <rs type="month"><name nymRef="Γορπιαίος">Γορπιαίου</name></rs> <num value="19">ἐνἀτηι <w lemma="ἐπὶ">ἐπὶ</w> δέκα</num>
+                    <lb n="4"/><w lemma="ἐπεί">Ἐπεὶ</w> ὁ <w lemma="ἀποστέλλω">ἀποσταλεὶς</w> <rs  ref="religious-institution.xml#ἀρχιθέωρος" type="religious_institution" subtype="official" role="ἀρχιθέωρος" key="architeoro"><w lemma="ἀρχιθέωρος">ἀρχιθέωρος</w></rs> <w lemma="ὑπό">ὑπὸ</w> τῆς <placeName type="ethnic" ref="Κώιος">Κώιων</placeName> <w lemma="πόλις">πόλεως</w> <persName type="attested" key=""><name nymRef="Ἀριστόλοχος">Ἀριστόλοχος</name></persName> <persName type="attested" key=""><name nymRef="Ζμένδρων" type="patronymic">Ζμέν<lb
+                        n="5" break="no"/>δρωνος</name></persName>καὶ <w lemma="μετά">μετ'</w> <w lemma="αὐτός">αὐτοῦ</w> <rs  ref="religious-institution.xml#θεωρός" type="religious_institution" subtype="official" role="θεωρός" key="teoro"><w lemma="θεωρός">θεωρός</w></rs> <persName type="attested" key=""><name nymRef="Μακαρεὺς">Μακαρεὺς</name></persName><persName type="attested" key=""><name nymRef="Ἄρατος" type="patronymic">Ἀράτου</name></persName> <w lemma="ἐπέρχομαι">ἐπελθόντες</w> <w lemma="ἐπὶ">ἐπὶ</w> τὴν <w lemma="ἐκκλησία">ἐκλη<lb
+                        n="6" break="no"/>σίαν</w> τήν τε <w lemma="οἰκειότης">οἰκειότητα</w> <w lemma="ἀνανεόομαι">ἀνενεώσαντο</w> τὴν <w lemma="ὑπάρχω">ὑπάρχουσαν </w><placeName type="ethnic" ref="Κώιος">Κώιοις</placeName> <w lemma="πρὸς">πρὸς</w> <placeName type="ethnic" ref="Μακεδών">Μακε<lb
+                        n="7" break="no"/>δόνας</placeName> καὶ τὴν <w lemma="εὔνοια">εὔνοιαν</w> <w lemma="ἐμφανίζω">ἐνεφάνιζον</w>, <w lemma="ὅς">ἣν</w> <w lemma="ἔχω">ἔχουσα</w> <w lemma="διατελέω">διατελεῖ</w> ἡ <w lemma="πόλις">πόλις</w> <w lemma="πρὸς">πρὸς</w> τε
+                    <lb n="8"/>τὸμ <w lemma="βασιλεύς">βασιλέα</w> <persName type="ruler" key="Antigono Gonata"><name nymRef="Ἀντιγόνος">Ἀντίγονον</name></persName> καὶ <w lemma="πρὸς">πρὸς</w> Μακεδόνας, <w lemma="ἐπαγγέλλω">ἐπηγγέλλοσαν</w> δὲ καὶ τὰ <rs type="festival" ref="festival.xml#Ἀσκληπίεια">Ἀσκλη<lb
+                        n="9" break="no"/>πίεια</rs> τὰ <w lemma="γίγνομαι">γεινόμενα</w> <w lemma="παρὰ">παρ' </w><w lemma="αὐτός">αὐτοῖς</w> καὶ τὴν <w lemma="ἐκεχειρία">ἐκεχειρίαν</w> καὶ <w lemma="ἀξιόω">ἠξίουν </w>τὸ <w lemma="ἱερὸν">ἱερὸν</w> τοῦ <persName type="divine" key="Asclepio"><name nymRef="Ἀσκληπιός">Ἀσ<lb
+                        n="10" break="no"/>κληπιοῦ</name></persName> τὸ <w lemma="ἐν">ἐν</w> <placeName type="toponym" ref="Κῶς">Κῶι</placeName> <w lemma="ἄσυλος">ἄσυλον</w> <w lemma="εἰμί">εἶναι</w>, <w lemma="δοκέω">δεδόχθαι</w> τῆι <w lemma="πόλις">πόλει</w> τῆι <placeName type="ethnic" ref="Ἀμφιπολίτης">Ἀμφιπολιτῶν</placeName>· τήν τε
+                    <lb n="11"/><w lemma="ἐπαγγελία">ἐπαγγελίαν</w> τῶν <rs type="festival" ref="festival.xml#Ἀσκληπίεια">Ἀσκληπιείων</rs> καί τὴν <w lemma="ἐκεχειρία">ἐκεχειρίαν</w> <w lemma="προσδέχομαι">προσδέξασθαι</w> καὶ <w lemma="ἐπαινέω">ἐπαι<lb
+                        n="12" break="no"/>νέσαι</w> <w lemma="αὐτός">αὐτοὺς</w> <w lemma="ἐπὶ">ἐπί</w> τε ταῖς <w lemma="τιμή">τιμαῖς</w>, <w lemma="ὅς">αἷς</w> <w lemma="συντελέω">συντελοῦσι</w> τοῖς <w lemma="θεός">θεοῖς</w>, καὶ <w lemma="ἐπὶ">ἐπὶ</w> τῆι <w lemma="εὔνοια">εὐ<lb
+                        n="13" break="no"/>νοίαι</w> τῆι <w lemma="πρὸς">πρὸς</w> τόμ <w lemma="βασιλεύς">βασιλέα</w> <persName type="ruler" key="Antigono Gonata"><name nymRef="Ἀντιγόνος">Ἀντίγονον</name></persName> καὶ <w lemma="πρὸς">πρὸς</w> <placeName type="ethnic" ref="Μακεδών">Μακεδόνας</placeName>·  <w lemma="εἰμί">εἶναι</w> δὲ καὶ τὸ <w lemma="ἱερὸν">ἱε<lb
+                        n="14" break="no"/>ρὸν</w><w lemma="ἄσυλος">ἄσυλον</w>, <w lemma="καθάπερ">καθάπερ</w> καὶ ὁ <w lemma="βασιλεύς">βασιλεὺς</w> <persName type="ruler" key="Antigono Gonata"><name nymRef="Ἀντιγόνος">Ἀντίγονος</name></persName> <w lemma="προαιρέω">προαιρεῖται</w>, <w lemma="δίδωμι">δοῦναι</w> δὲ καὶ
+                    <lb n="15"/>τοὺς <rs type="institution" subtype="official" role="ἄρχων" key="arconte"><w lemma="ἄρχων">ἄρχοντας</w></rs> <w lemma="ξένιον">ξένιον</w> τοῖς  <rs  ref="religious-institution.xml#θεωρός" type="religious_institution" subtype="official" role="θεωρός" key="teoro"><w lemma="θεωρός">θεωρός</w></rs><w lemma="ὅσος">ὅσον</w> καὶ τοῖς τὰ <rs type="festival" ref="festival.xml#Πύθια" key="giochi pitici"><w lemma="Πύθια">Πύθια</w></rs> <w lemma="ἐπαγγέλλω">ἐπαγγέλλουσι</w>
+                    <lb n="16"/><w lemma="δίδωμι">δίδοται</w> <w lemma="εἰμί">εἶναι</w> δὲ καὶ <rs type="institutions" subtype="official" role="θεωροδόκος" key="teorodoco"><w lemma="θεωροδόκος">θεωροδόκον</w></rs> τῆς <w lemma="θεωρία">θεωρίας</w> τῆς <placeName type="ethnic" ref="Κώιος">Κώιων</placeName> <persName type="attested" key=""><name nymRef="Διονύσιος">Διονύσιον</name></persName> <persName type="attested" key=""><name nymRef="Ἐπιγένος">Ἐπιγένου</name></persName>.
+                    <lb n="17"/><w lemma="ψηφίζω">Ἐψηφίσθη</w> <w lemma="παραπάv">παραπάσαις</w>.
+                    
+                   
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>
+            <div type="translation" xml:lang="it">
+                <p>(Decreto) dei cittadini di Anfipoli:
+                Nell’anno 41 del regno di Antigono, Xenias figlio di Orges era epistate, nel sacerdozio di Lysimaco, 19 del mese di Gorpiaios. Dal momento che sono stati inviati Aristolochos figlio di Zmendron come architeoro e Makareus figlio di Aratos come teoro dalla città di Kos e che si sono presentati davanti all'assemblea rinnovando il legame di familiarità esistente fra i Koi e i Macedoni, e hanno sottolineato la benevolenza della loro città nei confronti di re Antigono e dei Macedoni, e annunciano le feste in onore di Asclepio celebrate da loro, la tregua sacra e chiedono che il santuario di Asclepio a Kos sia inviolabile, è stato deciso dalla città di Anfipoli che sia accettato l'annuncio delle feste in onore di Asclepio e della tregua, e che siano lodati per gli onori conferiti agli Dei e per la benevolenza nei confronti di re Antigono e dei Macedoni; che il santuario di Asclepio sia inviolabile, come vuole anche re Antigono; che i mastrati diano ai teori i doni ospitali come quelli dati a coloro che annunciano le feste Pitiche; che Dionysios figlio di Epigenes dia il teorodoco dell'ambasceria sacra dei Koi. E' stato decretato con voto unanime.</p>
+            </div>
+            <div type="commentary">
+                <p>commentary</p>
+            </div>
+            <div type="bibliography">
+                <p><listBibl>
+                    <bibl><ptr target="#Herzog-Klaffenbach1952"/>, n. <citedRange>6</citedRange> (<bibl><ptr target="SEG"/>, <citedRange>12. 373</citedRange></bibl>);</bibl>
+                    <bibl><ptr target="#Hatzopoulos1996"/>, n. <citedRange>41</citedRange>;</bibl>
+                    <bibl><ptr target="#Rigsby1996"/>, pp. <citedRange>137-138</citedRange>;</bibl>
+                    <bibl><ptr target="#IGXII4"/>, <citedRange>220 II</citedRange>; Cf.</bibl>
+                    <bibl><ptr target="#Bengston1955"/>, pp. <citedRange>462-463</citedRange>;</bibl>
+                    <bibl><ptr target="#Kolbe1916"/>, pp. <citedRange>433-475</citedRange>;</bibl>
+                    <bibl><ptr target="#Papazoglou1983"/>, pp. <citedRange>202-205</citedRange>.</bibl>
+                    </listBibl></p>
+                </div>
+           </body>
+    </text>
+</TEI>
